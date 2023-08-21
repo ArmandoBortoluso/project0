@@ -2,27 +2,50 @@
 <html lang="en">
     <head>
         <title>Advanced Search</title>
+        <link rel="stylesheet" href="stylesheet.css">
     </head>
     <body>
+        <div>
         <a href="index.html">Back to Simple Google Search</a>
-        <form action="https://www.google.com/search?">
-            <p> 
-                <label for="as_q">all these words:</label>
-                <input type="text" name="as_q">
-            </p>
-            <p>
+        </div>
+        
+        <form action="https://www.google.com/search?"> 
+            <div class="container">
+                <div>
+                    <label for="as_q" class="question">all these words:</label>
+                </div>
+                <div>
+                    <input type="text" name="as_q" class="inputBox">
+                </div>
+            </div>
+            <div class="container">
+            <div>
                 <label for="as_epq">this exact word or phrase:</label>
-                <input type="text" name="as_epq">
-            </p>
-            <p>
+            </div>
+            <div>
+                <input type="text" name="as_epq" class="inputBox">
+            </div>
+        </div>
+        <div class="container">
+            <div>
                 <label for="as_oq">any of these words:</label>
-                <input type="text" name="as_oq">
-            </p>
-            <p>
+            </div>
+            <div>
+                <input type="text" name="as_oq" class="inputBox">
+            </div>
+        </div>
+        <div class="container">
+            <div>
                 <label for="as_eq">none of these words:</label>
-                <input type="text" name="as_eq">
-            </p>
-            <p>
+            </div>
+            <div>
+                <input type="text" name="as_eq" class="inputBox">
+            </div>
+        </div>
+            <div>
                 <input type="submit" value= "Google Search">
-            </p>
+            </div>
+        </form>
+    </div>
+
     </body>
