@@ -2,16 +2,21 @@
 <html lang="en">
     <head>
         <title>Google Image Search</title>
+        <link rel="stylesheet" href="stylesheet.css">
     </head>
     <body>
-        <a href="index.html">Back to Simple Google Search</a>
+        <div class="rightLinks">
+            <a href="index.html" class="linkmargin">Back to Simple Google Search</a>
+        </div>
+        <div class="centerSect">
         <form action="https://www.google.com/search?">
-            <p>
-                <input type="text" name="q">
+            <p class="searchH">
+                <input type="text" name="q" class="roundedSearch">
                 <input type="hidden" name="tbm" value="isch">
             </p>
-            <p>
-                <input type="submit" value = "Google Image Search">
-            </p>
+            <div class="paddEl">
+                <input type="submit" value = "Google Image Search" class="imageButton">
+            </div>
         </form>
+    </div>
     </body>
